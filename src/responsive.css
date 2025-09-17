@@ -1,0 +1,48 @@
+/* Arquivo para responsividade customizada */
+@media (max-width: 1024px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container, .w-100, .h-140 {
+    width: 100% !important;
+    height: auto !important;
+    min-width: 0;
+    min-height: 0;
+  }
+  .text-xl, .text-2xl {
+    font-size: 1.2rem !important;
+  }
+  .p-10, .p-4, .p-1.5 {
+    padding: 0.5rem !important;
+  }
+  .mt-4, .mt-2.5, .mt-1 {
+    margin-top: 0.5rem !important;
+  }
+  .pb-175, .pb-400, .pb-480 {
+    padding-bottom: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .container, .w-100, .h-140 {
+    width: 100vw !important;
+    height: auto !important;
+    min-width: 0;
+    min-height: 0;
+  }
+  .text-xl, .text-2xl {
+    font-size: 1rem !important;
+  }
+  .p-10, .p-4, .p-1.5 {
+    padding: 0.25rem !important;
+  }
+  .mt-4, .mt-2.5, .mt-1 {
+    margin-top: 0.25rem !important;
+  }
+  .pb-175, .pb-400, .pb-480 {
+    padding-bottom: 0.5rem !important;
+  }
+}
