@@ -1,4 +1,4 @@
-# Lino Bio — Link na Bio
+# Link Bio
 
 Projeto simples e responsivo feito com React + TypeScript e Vite para servir como uma página de "link na bio". Estilização com Tailwind CSS v4 e ícones do Lucide.
 
